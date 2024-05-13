@@ -35,7 +35,7 @@ namespace PryLedoEtapa5
             pctAvion.Width = 100;
             pctAvion.Height = 100;
             pctAvion.BackColor = Color.Transparent;
-            string rutaImagen = Path.Combine(Application.StartupPath, "..", "..", "Resources", "avion.png");
+            string rutaImagen = Path.Combine(Application.StartupPath, "..", "..", "Resources", "avion-removebg-preview.png");
             pctAvion.ImageLocation = rutaImagen;
             tipoVehiculo = "Avión";
         }
@@ -47,7 +47,7 @@ namespace PryLedoEtapa5
             pctBarco.Width = 100;
             pctBarco.Height = 100;
             pctBarco.BackColor = Color.Transparent;
-            string rutaImagen = Path.Combine(Application.StartupPath, "..", "..", "Resources", "barco.png");
+            string rutaImagen = Path.Combine(Application.StartupPath, "..", "..", "Resources", "barco-removebg-preview.png");
             pctBarco.ImageLocation = rutaImagen;
             tipoVehiculo = "Barco";
         }
